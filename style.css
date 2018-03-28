@@ -6,15 +6,15 @@
 }
 .left{
   width:25%;
-  background-color: #fff;
-  border: 5px solid #000;
+  background-color: #3d9970;
+  border: 5px solid #b8860b;
   margin: 5px;
 
 }
 .right{
   width: 70%;
-  background-color: #666;
-  border: 5px solid #000;
+  background-color: #f012be;
+  border: 5px solid #b8860b;
   margin: 5px;
 }
 #name{
