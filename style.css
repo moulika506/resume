@@ -1,21 +1,30 @@
+table,tr,td{
+  border:2px solid #000;
+  border-collapse: collapse;
+  margin:3px;
+}
 .main{
   width:100%;
-  background-color: #999;
-  display: flex;
-  flex-direction: row-reverserow;
+  background-color: silver;
+  display:flex;
+  flex-wrap: wrap;
 }
 .left{
-  width:35%;
-  background-color: #3d9970;
-  border: 5px solid #b8860b;
+  text-align: justify;
+  background-color: #5f9ea0;
+  border: 5px solid #85144b;
   margin: 5px;
+  flex:2;
+  padding:3px;
 
 }
 .right{
-  width: 70%;
-  background-color: #fffff;
-  border: 5px solid #b8860b;
+  text-align: justify;
+  background-color: #dddddd;
+  border: 5px solid #85144b;
   margin: 5px;
+  flex:2;
+  padding:3px;
 }
 #name{
   color: green;
@@ -23,6 +32,7 @@
 .left img{
   border-radius: 50px;
   border:5px solid #c454;
+  border-color: #85144b;
 }
  /*media queries(1024,1280,768,480)
  1280-1024 : Desktop
@@ -31,48 +41,91 @@
 480 : mobile landscape (or)smaller device
 
 */
-
 @media only screen and (min-width:1024px) and (max-width:1280px)
 {
 .main{
-  display: flex;
   width:100%;
+  background-color: silver;
+  display:flex;
+  flex-wrap: wrap;
+
 }
 .left{
-  width:35%;
-  background-color: #555;
+  text-align: justify;
+  background-color: silver;
+  border: 5px solid #85144b;
+  margin: 5px;
+  flex:2;
+  padding:3px;
+
 }
+
 .right{
-  width:75%;
-  background-color: #fff;
+  text-align: justify;
+  background-color: #c45e45;
+  border: 5px solid #85144b;
+  margin: 5px;
+  flex:2;
+  padding:3px;
+
+
 }
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
   .main{
-    display: flex;
-    width:100%;
+      width:100%;
+    background-color: silver;
+    display:flex;
+    flex-wrap: wrap;
+
   }
   .left{
-    width:35%;
-    background-color: #999;
+    text-align: justify;
+    background-color: pink;
+    border: 5px solid #85144b;
+    margin: 5px;
+    flex:2;
+    padding:3px;
+
   }
   .right{
-    width:75%;
-    background-color: #666;
+    text-align: justify;
+    background-color: cadedblue;
+    border: 5px solid #85144b;
+    margin: 5px;
+    flex:2;
+    padding:3px;
+
+
   }
 }
 @media only screen and (min-width:280px) and (max-width:768px){
   .main{
-    display: flex;
     width:100%;
+  background-color: silver;
+  display:flex;
+  flex-wrap: wrap;
+
+
   }
   .left{
-    width:35%;
-    background-color: #222;
+    text-align: justify;
+    background-color: aquamarine;
+    border: 5px solid #85144b;
+    margin: 5px;
+    flex:2;
+    padding:3px;
+
   }
   .right{
-    width:75%;
-    background-color: #333;
+    text-align: justify;
+    background-color: purple;
+    border: 5px solid #85144b;
+    margin: 5px;
+    flex:2;
+    padding:3px;
+
+
   }
 }
 }
